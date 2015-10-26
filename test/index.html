@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Demo: A Fullscreen Slideshow using Skrollr.js</title>
+        <meta name="description" content="Learn how to create a fullscreen slideshow for your scrolling website.">
+        
+        <link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
+
+        <!--iOS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--
+            * This demo was prepared for you by Petr Tichy - Ihatetomatoes.net
+            * Want to see more similar demos and tutorials?
+            * Help by spreading the word about Ihatetomatoes blog.
+            * Facebook - https://www.facebook.com/ihatetomatoesblog
+            * Twitter - https://twitter.com/ihatetomatoes
+            * Google+ - https://plus.google.com/u/0/109859280204979591787/about
+        -->
+        
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    </head>
+    <body>
+
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+		<!-- Demo content -->			
+		<div id="page-content">
+            
+            <div id="slides-container">
+                <div id="slides"
+                    data-0="transform:translate(0%,0%);"
+                    data-150p="transform:translate(0%,-50%);"
+                    data-200p=""
+                    data-300p="transform:translate(-50%,-50%);"
+                    data-350p=""
+                    data-450p="transform:translate(-50%,0%);"
+                >
+                    <div id="slide-1" class="slide">
+                        <div class="caption"
+                            data-40p="opacity: 1; transform:translate(0px,0px);"
+                            data-70p="opacity: 0; transform:translate(0px,-100%);"
+                            data-anchor-target="#helper"
+                        >
+                            <h1>Image  Title</h1>
+                            <p>Image description goes here.</p>
+                        </div>
+                    </div>
+                    <div id="slide-2a" class="slide"
+                            >
+
+                        <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+                            <path style="fill:none;stroke:#D50000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1200;stroke-dashoffset:0" data-70p="stroke-dashoffset:1200;" data-250p="stroke-dashoffset:600;" data-300p="stroke-dashoffset:0;" d="M676.751,138.882c35.199,28.663,55.848,71.05,84.37,106.363c16.55,20.49,35.788,38.62,54.961,56.68
+                            c43.95,41.399,87.9,82.798,131.849,124.196c19.953,18.795,39.906,37.59,60.123,56.099c69.566,63.689,142.245,123.977,217.69,180.578
+                            c17.432,13.078,35.12,26.026,54.62,35.754c28.954,14.445,62.336,22.13,85.554,44.667"
+                            />
+                        </svg>
+                        
+                        
+                    </div>
+                    
+                    <div id="slide-2" class="slide">
+
+                        <!--<object>
+                            <embed src="img/Screenshot (187)_1.svg"/>
+                        </object>-->
+
+                        
+                        <div class="caption"
+                            data-130p="opacity: 0; transform:translate(0px,-200%);"
+                            data-180p="opacity: 1; transform:translate(0px,0px);"
+                            data-250p=""
+                            data-280p="opacity: 0; transform:translate(-100px,0px);"
+                            data-anchor-target="#helper"
+                        >
+                            
+                            <h1>Image 2 Title</h1>
+                            <p>Image description goes here.</p>
+                        </div>
+                    </div>
+                    <div id="slide-3a" class="slide">
+
+                        <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+                            <path style="fill:none;stroke:#D50000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1200;stroke-dashoffset:0" data-300p="stroke-dashoffset:1200;" data-400p="stroke-dashoffset:400;"data-450p="stroke-dashoffset:0;" d="M1.416,670.842c20.07-23.624,44.066-43.606,64.979-66.488c12.058-13.193,23.054-27.309,34.47-41.06
+                            c23.113-27.841,47.951-54.194,72.77-80.525c9.799-10.396,19.598-20.792,29.397-31.188c47.822-50.736,95.684-101.511,146.596-149.146
+                            c3.076-2.878,6.358-5.852,10.456-6.829c8.606-2.051,16.363,5.227,22.226,11.852c11.108,12.551,22.215,25.101,33.323,37.652
+                            c7.485,8.458,19.464,17.606,28.71,11.121c3.334-2.339,5.18-6.198,7.166-9.754c14.906-26.685,43.2-42.394,66.929-61.662
+                            c20.23-16.426,37.628-36.011,54.927-55.499c70.969-79.954,141.939-159.907,212.908-239.861"
+                            />
+                        </svg>
+                        
+                        
+                    </div>
+                    <div id="slide-3" class="slide">
+                        <div class="caption"
+                            data-250p="opacity: 0; transform:translate(300px,0px);"
+                            data-300p="opacity: 1; transform:translate(0px,0px);"
+                            data-anchor-target="#helper"
+                        >
+                            <h1>Image 3 Title</h1>
+                            <p>Image description goes here.</p>
+                        </div>
+                    </div>
+
+                    <div id="slide-4a" class="slide">
+
+                        <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+                            <path style="fill:none;stroke:#D50000;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1200;stroke-dashoffset:0" data-450p="stroke-dashoffset:1200;" 
+                            data-550p="stroke-dashoffset:300;" data-end="stroke-dashoffset:0;" d="M730.331,743.05c-58.504-48.574-112.608-102.445-161.435-160.738c-9.841-11.749-19.521-23.732-30.955-33.937
+                            c-10.389-9.272-22.094-16.954-32.742-25.927c-33.314-28.073-54.807-67.355-82.536-100.956
+                            c-47.593-57.67-112.739-97.705-168.25-147.799C168.061,195.77,101.964,91.145-2.951,40.932"
+                                                    />
+                        </svg>
+                        
+                        
+                    </div>
+                    <div id="slide-4" class="slide">
+                        <div class="caption"
+                            data-430p="opacity: 0;"
+                            data-450p="opacity: 1;"
+                            data-anchor-target="#helper"
+                        >
+                            <h1>Image 4 Title</h1>
+                            <p>Image description goes here.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="helper">
+                <div class="marker red"></div>
+                <div class="marker green"></div>
+                <div class="marker blue"></div>
+                <div class="marker yellow"></div>
+            </div>
+
+
+
+
+
+		</div>
+		<!-- /Demo content -->
+
+        <!-- Include Skrollr.js -->
+        <script src="js/skrollr.min.js"></script>
+        <script type="text/javascript">
+
+                                                
+            var s = skrollr.init();
+        </script>
+        
+   
+
+    </body>
+</html>

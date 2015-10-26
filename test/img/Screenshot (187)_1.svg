@@ -1,0 +1,59 @@
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+
+	<!-- <style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
+
+	.st0{
+	stroke-dasharray: 600;
+	stroke-dashoffset:0;
+	-webkit-animation: dash 3s linear alternate ;
+
+	}
+	@-webkit-keyframes dash{
+	from{
+	stroke-dashoffset: 600;
+	}
+	to{
+	stroke-dashoffset:0 ;
+	}
+	}
+</style>-->
+			<path style="fill:none;stroke:#333333;stroke-width:7;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:800;stroke-dashoffset:0" data-300p="stroke-dashoffset:800;" data-400p="stroke-dashoffset:0;" d="M676.751,138.882c35.199,28.663,55.848,71.05,84.37,106.363c16.55,20.49,35.788,38.62,54.961,56.68
+	c43.95,41.399,87.9,82.798,131.849,124.196c19.953,18.795,39.906,37.59,60.123,56.099c69.566,63.689,142.245,123.977,217.69,180.578
+	c17.432,13.078,35.12,26.026,54.62,35.754c28.954,14.445,62.336,22.13,85.554,44.667"
+			/>
+		</svg>
+
+
+
+
+<!--<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
+
+	.st0{
+	stroke-dasharray: 600;
+	stroke-dashoffset:0;
+	-webkit-animation: dash 3s linear alternate ;
+
+	}
+	@-webkit-keyframes dash{
+	from{
+	stroke-dashoffset: 600;
+	}
+	to{
+	stroke-dashoffset:0 ;
+	}
+	}
+</style>-->
+<!--<path class="st0"
+ style="fill:none;stroke:#000000;stroke-width:8;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:600;stroke-dashoffset:0"
+ data-0="stroke-dashoffset:600;" data-end="stroke-dashoffset:0;"
+
+
+ d="M676.751,138.882c35.199,28.663,55.848,71.05,84.37,106.363c16.55,20.49,35.788,38.62,54.961,56.68
+	c43.95,41.399,87.9,82.798,131.849,124.196c19.953,18.795,39.906,37.59,60.123,56.099c69.566,63.689,142.245,123.977,217.69,180.578
+	c17.432,13.078,35.12,26.026,54.62,35.754c28.954,14.445,62.336,22.13,85.554,44.667"/>
+</svg>-->
