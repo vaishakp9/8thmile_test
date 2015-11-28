@@ -1,0 +1,25 @@
+
+
+#title h1
+{font-size:70px;
+font-family: "Kreon",sans-serif;
+
+color: rgb(206, 196, 196);
+
+
+}
+
+#title h3
+{font-family: 'Contrail one', sans-serif;
+    font-size: 24px;
+    color: whitesmoke;
+}
+#title{
+	
+	background: rgba(58, 58, 58, 0.73);
+    padding: 57px;
+    position: absolute;
+    top: 168px;
+    width: 100%;
+	
+}
